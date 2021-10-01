@@ -1,0 +1,42 @@
+local Material = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinlei/MaterialLua/master/Module.lua"))()
+
+local UI = Material.Load({
+     Title = "Bunny Hub",
+     Style = 24,
+     SizeX = 500,
+     SizeY = 200,
+     Theme = "Dark"
+})
+
+local Page = UI.New({
+    Title = "Pet Simulator X",
+
+
+})
+
+Page.Button({
+    Text = "Pet Simulator X",
+    Callback = function()
+        
+
+
+
+
+
+
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TurfuGoldy/GoldenScripts/main/EzPets.lua", true))()
+
+
+
+
+
+
+
+
+
+
+
+
+    end
+})
